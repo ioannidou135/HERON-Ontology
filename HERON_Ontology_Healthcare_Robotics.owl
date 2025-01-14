@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bfo="http://purl.obolibrary.org/obo/BFO_"
+   xmlns:cora-bare="http://purl.org/ieee1872-owl/cora-bare#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sumo-cora="http://purl.org/ieee1872-owl/sumo-cora#"
+>
+  <rdf:Description rdf:about="http://example.org/upper_level#Communication">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication</rdfs:label>
+    <sumo-cora:relatedTo rdf:resource="http://example.org/upper_level#Collaboration"/>
+    <sumo-cora:relatedTo rdf:resource="http://example.org/upper_level#Safety"/>
+    <cora-bare:hasConnection rdf:resource="http://example.org/upper_level#Collaboration"/>
+    <cora-bare:hasConnection rdf:resource="http://example.org/upper_level#Safety"/>
+    <bfo:hasPart rdf:resource="http://example.org/upper_level#Collaboration"/>
+    <bfo:hasPart rdf:resource="http://example.org/upper_level#Safety"/>
+    <obo:RO_0000056 rdf:resource="http://example.org/upper_level#Collaboration"/>
+    <obo:RO_0000056 rdf:resource="http://example.org/upper_level#Safety"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upper_level_HERON_BFO_OBO">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:comment>Upper-level HERON ontology aligned with IEEE 1872-2015 standards, BFO, and OBO ontologies.</rdfs:comment>
+    <dc:creator>HERON Team</dc:creator>
+    <owl:versionInfo>1.1</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upper_level#OntologyManagement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OntologyManagement</rdfs:label>
+    <sumo-cora:relatedTo rdf:resource="http://example.org/upper_level#Communication"/>
+    <sumo-cora:relatedTo rdf:resource="http://example.org/upper_level#Collaboration"/>
+    <sumo-cora:relatedTo rdf:resource="http://example.org/upper_level#RobotClassification"/>
+    <sumo-cora:relatedTo rdf:resource="http://example.org/upper_level#Safety"/>
+    <cora-bare:hasConnection rdf:resource="http://example.org/upper_level#Communication"/>
+    <cora-bare:hasConnection rdf:resource="http://example.org/upper_level#Collaboration"/>
+    <cora-bare:hasConnection rdf:resource="http://example.org/upper_level#RobotClassification"/>
+    <cora-bare:hasConnection rdf:resource="http://example.org/upper_level#Safety"/>
+    <bfo:hasPart rdf:resource="http://example.org/upper_level#Communication"/>
+    <bfo:hasPart rdf:resource="http://example.org/upper_level#Collaboration"/>
+    <bfo:hasPart rdf:resource="http://example.org/upper_level#RobotClassification"/>
+    <bfo:hasPart rdf:resource="http://example.org/upper_level#Safety"/>
+    <obo:RO_0000056 rdf:resource="http://example.org/upper_level#Communication"/>
+    <obo:RO_0000056 rdf:resource="http://example.org/upper_level#Collaboration"/>
+    <obo:RO_0000056 rdf:resource="http://example.org/upper_level#RobotClassification"/>
+    <obo:RO_0000056 rdf:resource="http://example.org/upper_level#Safety"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upper_level#RobotClassification">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RobotClassification</rdfs:label>
+    <sumo-cora:relatedTo rdf:resource="http://example.org/upper_level#Safety"/>
+    <cora-bare:hasConnection rdf:resource="http://example.org/upper_level#Safety"/>
+    <bfo:hasPart rdf:resource="http://example.org/upper_level#Safety"/>
+    <obo:RO_0000056 rdf:resource="http://example.org/upper_level#Safety"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upper_level#Collaboration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collaboration</rdfs:label>
+    <sumo-cora:relatedTo rdf:resource="http://example.org/upper_level#RobotClassification"/>
+    <cora-bare:hasConnection rdf:resource="http://example.org/upper_level#RobotClassification"/>
+    <bfo:hasPart rdf:resource="http://example.org/upper_level#RobotClassification"/>
+    <obo:RO_0000056 rdf:resource="http://example.org/upper_level#RobotClassification"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upper_level#Safety">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Safety</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

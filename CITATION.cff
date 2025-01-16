@@ -1,0 +1,10 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- name: Penelope
+  surnames: Ioannidou
+orcid: https://orcid.org/0000-0002-2664-9268
+title:ioannidou135/HERON-Ontology: HERON-Ontology version 1.0.2
+version: version-1.0.2
+date-released: 2025-01-16
+                           

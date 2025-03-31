@@ -57,7 +57,7 @@ You can open the `heron.ttl` in [Protégé](https://protege.stanford.edu/), quer
 ## 👩‍💻 Contact
 
 For questions or collaboration:
-**Penelope Ioannidou** — [pioannidou@biomed.ntua.gr](mailto:pioannidou@biomed.ntua.gr)
+**Penelope Ioannidou** — [penelopeioannidou@gmail.com](mailto:penelopeioannidou@gmail.com)
 
 ---
 
